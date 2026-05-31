@@ -1,0 +1,23 @@
+fastapi==0.111.1
+uvicorn[standard]==0.30.1
+
+# DB (async)
+sqlalchemy[asyncio]==2.0.30
+asyncpg==0.29.0
+alembic==1.13.1
+pgvector==0.3.2
+
+# Auth
+python-jose[cryptography]==3.3.0
+bcrypt==5.0.0               # passlib は bcrypt 4.x+ と非互換のため直接使用
+python-multipart==0.0.9
+
+# AI / Embedding
+openai==1.35.0
+
+# Config
+pydantic-settings==2.3.3
+python-dotenv==1.0.1
+
+# HTTP
+httpx==0.27.0

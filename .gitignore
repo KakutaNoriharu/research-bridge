@@ -1,0 +1,74 @@
+# ===== Node.js / Next.js =====
+node_modules/
+.next/
+out/
+dist/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+.mypy_cache/
+.ruff_cache/
+
+# ===== Environment =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!.env.local.example
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ===== OS =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===== Docker =====
+.docker/
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Test / Coverage =====
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+junit.xml
+
+# ===== Alembic =====
+# 生成済みマイグレーションは追跡対象（versionsは追跡する）
+
+# ===== Claude Code =====
+.claude/
